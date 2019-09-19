@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Tipsy</title>
+
+      <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/styles/stylesheet.css"> -->
+
+  </head>
+  <title>Tipsy</title>
+  <body>
+
+
+      {% for table in tables %}
+
+                  {{ table|safe }}
+      {% endfor %}
+
+
+
+      <div class='col-12'>
+          <p>Would you like to submit this to your history?</p>
+            <a href="http://localhost:4000/database_home">
+              <input type="submit" class="btn btn-outline-success btn-lg" name="submit" value="submit">
+            </a>
+            <a href="http://localhost:4000/home">
+              <input type="submit" class="btn btn-outline-warning btn-lg" name="do not submit" value="do not submit">
+            </a>
+
+        </div>
+
+
+      </body>
+    </html>

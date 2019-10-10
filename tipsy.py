@@ -20,21 +20,7 @@ from bots.regular import final_func
 
 
 
-# fake_df = pd.read_csv('fake_df.csv', index_col='Unnamed: 0')
-# fake_df = fake_df.rename(columns={'tip_out': 'tip_envelope'})
-# fake_df = fake_df.rename(columns={'Date': 'date', 'Hours': 'hours', 'Money_add': 'money_add'})
-# fake_df
-#
-# fake_df.to_csv('database_df.csv')
-# database_df = pd.read_csv('database_df.csv', index_col='Unnamed: 0')
-
-
 app = flask.Flask(__name__)
-#
-# @app.route('/login')
-# def login():
-#     with open('templates/login.html', 'r') as login:
-#         return login.read()
 
 
 @app.route('/home')

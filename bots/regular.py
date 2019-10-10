@@ -1,12 +1,6 @@
 import pandas as pd
 
-# date = 'Aug 24 19'
-# names = 'Kristi, Laura, Sofia, Grace, Dell'
-# times = '8, 6, 4, 5, 6'
-# monies = '200, 210, 120, 150, 180'
-# sold = 8700
-# support = 1
-# food_sales = 3000
+
 
 
 

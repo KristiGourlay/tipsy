@@ -1,19 +1,5 @@
 import pandas as pd
 
-#
-# date = 'Aug 24 19'
-# names = 'Kristi, Laura, Sofia, Grace, Dell'
-# day_hours = '8, 8, 3, 0, 0'
-# night_hours = '0, 0, 5, 8, 8'
-# monies = '200, 210, 120, 150, 180'
-# sold = 8700
-# day_sales = 4100
-# day_support = 1
-# night_support = 1
-# food_sales = 3000
-#
-#
-
 
 def final_function(date, names, day_hours, night_hours, monies, sold, day_sales, day_support, night_support, food_sales):
 
